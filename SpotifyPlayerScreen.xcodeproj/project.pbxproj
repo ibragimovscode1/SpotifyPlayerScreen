@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		52D1B44A2864C53A003BB26E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1B4492864C53A003BB26E /* AppDelegate.swift */; };
 		52D1B44C2864C53A003BB26E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1B44B2864C53A003BB26E /* SceneDelegate.swift */; };
-		52D1B44E2864C53A003BB26E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1B44D2864C53A003BB26E /* ViewController.swift */; };
-		52D1B4512864C53A003BB26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D1B44F2864C53A003BB26E /* Main.storyboard */; };
+		52D1B44E2864C53A003BB26E /* SpotifyPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1B44D2864C53A003BB26E /* SpotifyPlayer.swift */; };
 		52D1B4532864C544003BB26E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D1B4522864C544003BB26E /* Assets.xcassets */; };
 		52D1B4562864C544003BB26E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D1B4542864C544003BB26E /* LaunchScreen.storyboard */; };
+		52D1B4612864C646003BB26E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1B4602864C646003BB26E /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52D1B4462864C53A003BB26E /* SpotifyPlayerScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyPlayerScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D1B4492864C53A003BB26E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D1B44B2864C53A003BB26E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52D1B44D2864C53A003BB26E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52D1B4502864C53A003BB26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D1B44D2864C53A003BB26E /* SpotifyPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyPlayer.swift; sourceTree = "<group>"; };
 		52D1B4522864C544003BB26E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D1B4552864C544003BB26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D1B4572864C544003BB26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D1B4602864C646003BB26E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				52D1B4492864C53A003BB26E /* AppDelegate.swift */,
 				52D1B44B2864C53A003BB26E /* SceneDelegate.swift */,
-				52D1B44D2864C53A003BB26E /* ViewController.swift */,
-				52D1B44F2864C53A003BB26E /* Main.storyboard */,
+				52D1B44D2864C53A003BB26E /* SpotifyPlayer.swift */,
+				52D1B4602864C646003BB26E /* Helpers.swift */,
 				52D1B4522864C544003BB26E /* Assets.xcassets */,
 				52D1B4542864C544003BB26E /* LaunchScreen.storyboard */,
 				52D1B4572864C544003BB26E /* Info.plist */,
@@ -126,7 +126,6 @@
 			files = (
 				52D1B4562864C544003BB26E /* LaunchScreen.storyboard in Resources */,
 				52D1B4532864C544003BB26E /* Assets.xcassets in Resources */,
-				52D1B4512864C53A003BB26E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +136,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D1B44E2864C53A003BB26E /* ViewController.swift in Sources */,
+				52D1B44E2864C53A003BB26E /* SpotifyPlayer.swift in Sources */,
 				52D1B44A2864C53A003BB26E /* AppDelegate.swift in Sources */,
 				52D1B44C2864C53A003BB26E /* SceneDelegate.swift in Sources */,
+				52D1B4612864C646003BB26E /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52D1B44F2864C53A003BB26E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52D1B4502864C53A003BB26E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52D1B4542864C544003BB26E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
